@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34526.213
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MISM5104", "MISM5104.csproj", "{F27EDF95-E3CB-44BC-908D-3558C3A42C80}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "MISM5104Db", "..\MISM5104Db\MISM5104Db.sqlproj", "{78CACAE5-14ED-4931-9682-8E70123C9D34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,12 @@ Global
 		{F27EDF95-E3CB-44BC-908D-3558C3A42C80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F27EDF95-E3CB-44BC-908D-3558C3A42C80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F27EDF95-E3CB-44BC-908D-3558C3A42C80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78CACAE5-14ED-4931-9682-8E70123C9D34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78CACAE5-14ED-4931-9682-8E70123C9D34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78CACAE5-14ED-4931-9682-8E70123C9D34}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{78CACAE5-14ED-4931-9682-8E70123C9D34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78CACAE5-14ED-4931-9682-8E70123C9D34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78CACAE5-14ED-4931-9682-8E70123C9D34}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -16,7 +16,7 @@ namespace MISM5104
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Home", action = "CreateUser", id = UrlParameter.Optional }
             );
         }
     }

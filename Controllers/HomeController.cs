@@ -1,30 +1,48 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using MISM5104.Models;
+using MISM5104.Repositories;
+using MvcFlash.Core;
+using MvcFlash.Core.Extensions;
 
 namespace MISM5104.Controllers
 {
     public class HomeController : Controller
     {
+	    private readonly IRepository _repository;
+	    public HomeController()
+	    {
+            _repository=new Repository();
+	    }
         public ActionResult Index()
         {
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult CreateUser()
         {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
+	        var users = _repository.GetUsers();
+	        var model = new UsersVm(users);
+	        return View(model);
         }
 
-        public ActionResult Contact()
+        public ActionResult SaveUser(UsersVm user)
         {
-            ViewBag.Message = "Your contact page.";
+	        if (user == null)
+	        {
+		        Flash.Instance.Warning($"The User cannot be null");
+		        return RedirectToAction("CreateUser");
+			}
 
-            return View();
+			user.CreatedOn= DateTime.Now;
+			user.CreatedBy = "Admin";
+	        if (_repository.SaveUser(user))
+	        {
+		        Flash.Instance.Success($"User {user.FullName} saved successfully");
+	        }
+	        return RedirectToAction("CreateUser");
         }
     }
 }
