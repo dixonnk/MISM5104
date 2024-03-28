@@ -1,0 +1,58 @@
+﻿@model MISM5104.Models.StudentCourseVm
+@{
+
+}
+<div class="row">
+    <div class="col-md-12">
+        <h4>Course Registration</h4>
+        <table class="table table-striped table-bordered display compact" id="grid">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Course Name</th>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                    <th>Registration Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model.Courses.Any())
+                {
+                    var i = 1;
+                    foreach (var course in Model.Courses)
+                    {
+	                    var registered = Model.StudentCourses.Any(m => m.CourseId == course.Id);
+                        <tr>
+                            <td>@i</td>
+                            <td>@course.CourseName</td>
+                            <td>@course.StartDate.ToString("D")</td>
+                            <td>@course.EndDate.ToString("D")</td>
+	                        <td>
+                                @if (registered)
+                                {
+                                    <span>Registered</span>
+                                }
+                                else
+                                {
+	                                <a href="@Url.Action("AddCourseRegistration", "Home", new { courseId = course.Id })" class="btn btn-primary btn-xs pull-right"><i class="fa fa-plus"></i> Register </a>
+                                }
+	                        </td>
+                           
+                        </tr>
+                        i++;
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script type="text/javascript">
+		$(function () {
+			$('#grid').dataTable();
+		});
+
+    </script>
+}

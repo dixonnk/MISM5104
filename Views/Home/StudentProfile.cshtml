@@ -1,0 +1,23 @@
+﻿@using MISM5104.Models
+@model MISM5104.Models.UsersVm
+@{
+	var user = (UsersVm)Session["user"];
+}
+
+<div class="row">
+	<div class="col-md-12">
+		<table class="table table-bordered table-condensed">
+			<tr>
+				<td class="alert-info">Name</td>
+				<th>@user.FullName</th>
+			</tr>
+			<tr>
+				<td class="alert-info">Gender</td>
+				<th>@user.Gender</th>
+			</tr>
+			<tr>
+				<td class="alert-info">Email</td>
+				<th>@user.Email</th>
+		</table>
+	</div>
+</div>

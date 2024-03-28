@@ -1,0 +1,44 @@
+﻿@model MISM5104.Models.QuizesVm
+
+@{
+    var coursesWithLessons = (from a in Model.Courses
+                              join b in Model.StudentCourses on a.Id equals b.CourseId
+                              join c in Model.Quizes on a.Id equals c.CourseId
+                              select new { a, c }).ToList();
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <h4>My Quizes</h4>
+        @if (coursesWithLessons.Any())
+        {
+            var courses = coursesWithLessons.Select(m => new { m.a }).Distinct().ToList();
+            foreach (var course in courses)
+            {
+                var i = 1;
+                var quizes = Model.Quizes.Where(m => m.CourseId == course.a.Id);
+                <h5>@course.a.CourseName</h5>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Title</th>
+                            <th>Questions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var l in quizes)
+                        {
+                            <tr>
+                                <td>@i</td>
+                                <td>@l.Title</td>
+                                <td>@l.Questions</td>
+                            </tr>
+                            i++;
+                        }
+                    </tbody>
+                </table>
+            }
+        }
+    </div>
+</div>
