@@ -51,8 +51,13 @@ C:\Users\Edwin Kurgat\source\repos\KCA OOP\MISM5104\bin\roslyn\vbc.rsp
 C:\Users\Edwin Kurgat\source\repos\KCA OOP\MISM5104\bin\roslyn\VBCSCompiler.exe
 C:\Users\Edwin Kurgat\source\repos\KCA OOP\MISM5104\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\Edwin Kurgat\source\repos\KCA OOP\MISM5104\bin\Antlr3.Runtime.dll
+C:\Users\Edwin Kurgat\source\repos\KCA OOP\MISM5104\bin\Castle.Core.dll
+C:\Users\Edwin Kurgat\source\repos\KCA OOP\MISM5104\bin\Castle.Windsor.dll
+C:\Users\Edwin Kurgat\source\repos\KCA OOP\MISM5104\bin\Dapper.Contrib.dll
+C:\Users\Edwin Kurgat\source\repos\KCA OOP\MISM5104\bin\Dapper.dll
 C:\Users\Edwin Kurgat\source\repos\KCA OOP\MISM5104\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\Edwin Kurgat\source\repos\KCA OOP\MISM5104\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Edwin Kurgat\source\repos\KCA OOP\MISM5104\bin\MvcFlash.Core.dll
 C:\Users\Edwin Kurgat\source\repos\KCA OOP\MISM5104\bin\Newtonsoft.Json.dll
 C:\Users\Edwin Kurgat\source\repos\KCA OOP\MISM5104\bin\System.Web.Helpers.dll
 C:\Users\Edwin Kurgat\source\repos\KCA OOP\MISM5104\bin\System.Web.Mvc.dll
@@ -62,6 +67,10 @@ C:\Users\Edwin Kurgat\source\repos\KCA OOP\MISM5104\bin\System.Web.WebPages.Depl
 C:\Users\Edwin Kurgat\source\repos\KCA OOP\MISM5104\bin\System.Web.WebPages.dll
 C:\Users\Edwin Kurgat\source\repos\KCA OOP\MISM5104\bin\System.Web.WebPages.Razor.dll
 C:\Users\Edwin Kurgat\source\repos\KCA OOP\MISM5104\bin\WebGrease.dll
+C:\Users\Edwin Kurgat\source\repos\KCA OOP\MISM5104\bin\Castle.Core.xml
+C:\Users\Edwin Kurgat\source\repos\KCA OOP\MISM5104\bin\Castle.Windsor.xml
+C:\Users\Edwin Kurgat\source\repos\KCA OOP\MISM5104\bin\Dapper.xml
+C:\Users\Edwin Kurgat\source\repos\KCA OOP\MISM5104\bin\Dapper.Contrib.xml
 C:\Users\Edwin Kurgat\source\repos\KCA OOP\MISM5104\bin\System.Web.Helpers.xml
 C:\Users\Edwin Kurgat\source\repos\KCA OOP\MISM5104\bin\System.Web.Mvc.xml
 C:\Users\Edwin Kurgat\source\repos\KCA OOP\MISM5104\bin\System.Web.Optimization.xml
@@ -77,8 +86,3 @@ C:\Users\Edwin Kurgat\source\repos\KCA OOP\MISM5104\obj\Debug\MISM5104.csproj.Co
 C:\Users\Edwin Kurgat\source\repos\KCA OOP\MISM5104\obj\Debug\MISM5104.csproj.CopyComplete
 C:\Users\Edwin Kurgat\source\repos\KCA OOP\MISM5104\obj\Debug\MISM5104.dll
 C:\Users\Edwin Kurgat\source\repos\KCA OOP\MISM5104\obj\Debug\MISM5104.pdb
-C:\Users\Edwin Kurgat\source\repos\KCA OOP\MISM5104\bin\Dapper.Contrib.dll
-C:\Users\Edwin Kurgat\source\repos\KCA OOP\MISM5104\bin\Dapper.dll
-C:\Users\Edwin Kurgat\source\repos\KCA OOP\MISM5104\bin\MvcFlash.Core.dll
-C:\Users\Edwin Kurgat\source\repos\KCA OOP\MISM5104\bin\Dapper.xml
-C:\Users\Edwin Kurgat\source\repos\KCA OOP\MISM5104\bin\Dapper.Contrib.xml
