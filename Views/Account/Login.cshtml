@@ -1,0 +1,57 @@
+﻿@model MISM5104.Models.LoginViewModel
+@{
+	Layout = "~/Views/Shared/_loginLayout.cshtml";
+}
+<br />
+<br />
+<div style="border: 1px solid #dedede; border-radius: 1%; padding: 12%; background: #F7F7F7">
+	<div class="row">
+		<div class="col-md-6 col-sm-6 col-md-offset-5 col-sm-offset-5">
+			<img src="~/Content/Images/logo1.png" alt="" style="height: 7em; width: auto" />
+		</div>
+	</div>
+	@using (Html.BeginForm("Logon", "Account", FormMethod.Post))
+	{
+		@Html.AntiForgeryToken()
+		<div class="form-horizontal">
+			<hr />
+			<div class="form-group">
+				<div class="col-md-10 col-md-offset-2">
+					@Html.EditorFor(model => model.UserName, new { htmlAttributes = new { @class = "form-control login text-center", @AutoComplete = "off", @placeholder = "Username" } })
+					@Html.ValidationMessageFor(model => model.UserName, "", new { @class = "text-danger" })
+				</div>
+			</div>
+
+			<div class="form-group">
+				<div class="col-md-10 col-md-offset-2">
+					@Html.EditorFor(model => model.PassWord, new { htmlAttributes = new { @class = "form-control login text-center", @placeholder = "Password" } })
+					@Html.ValidationMessageFor(model => model.PassWord, "", new { @class = "text-danger" })
+				</div>
+			</div>
+
+			<div class="form-group">
+				<div class="col-md-10  col-md-offset-2">
+					<input type="submit" value="Login" class="btn btn-info btn-block" />
+				</div>
+			</div>
+			@Html.ValidationSummary(true, "", new { @class = "text-danger" })
+		</div>
+	}
+
+	<div class="text-center">
+		<p class="h4">Please login to proceed</p>
+	</div>
+	<div class="text-center">
+		<br/>
+		<br/>
+	</div>
+</div>
+
+
+<div class="footer">
+	<p class="h4"></p>
+</div>
+
+@section Scripts {
+	@Scripts.Render("~/bundles/jqueryval")
+}

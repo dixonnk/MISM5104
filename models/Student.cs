@@ -8,7 +8,16 @@ namespace MISM5104.Models
 	public class Student : User
 	{
 		public Student() { }
-		public string AdmissionNumber { get; set; }
+		private string AdmissionNumber;
 		public string Cohort { get; set; }
+
+		public void setAdmissionNumber(string admissionNumber)
+		{
+			this.AdmissionNumber = admissionNumber;
+		}
+		public string getAdmissionNumber()
+		{
+			return this.AdmissionNumber;
+		}
 	}
 }

@@ -1,32 +1,85 @@
-﻿@using MvcFlash.Core.Extensions
+﻿@using MISM5104.Models
+@using MvcFlash.Core.Extensions
+@{
+	if (Session["user"] == null)
+	{
+		Response.Redirect("/Account/login");
+	}
+	var user = (UsersVm) Session["user"];
+}
+
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
-    @Styles.Render("~/Content/css")
+    <title>@ViewBag.Title - Team 4</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/datatables.min.css" rel="stylesheet" />
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm  bg-light" style="color: #000000">
-	    <div class="container">
-		    <div class="col-lg-6 col-lg-offset-3" style="z-index: 1000; position: fixed; margin-top: 55px;">
-			    @Html.Flash()
-		    </div>
-		    @Html.ActionLink("E-Learning App", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-		    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Toggle navigation" aria-controls="navbarSupportedContent"
-		            aria-expanded="false" aria-label="Toggle navigation">
-			    <span class="navbar-toggler-icon"></span>
-		    </button>
-		    <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
-			    <ul class="navbar-nav flex-grow-1">
-				    @*<li>@Html.ActionLink("Home", "Index", "Home", new { area = "" }, new { @class = "nav-link" })</li>
-				    <li>@Html.ActionLink("About", "About", "Home", new { area = "" }, new { @class = "nav-link" })</li>
-				    <li>@Html.ActionLink("Contact", "Contact", "Home", new { area = "" }, new { @class = "nav-link" })</li>*@
-			    </ul>
-		    </div>
-	    </div>
+    <nav class="navbar navbar-expand-sm navbar-default" style="color: #000000">
+        <div class="col-lg-6 col-lg-offset-3" style="z-index: 1000; position: fixed; margin-top: 55px;">
+            @Html.Flash()
+        </div>
+        <div class="container">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="row">
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" style="padding-top: 3%">
+                        <span style="font-family: Tahoma, Geneva, sans-serif; font-size: 20px; font-weight: bolder">
+                            E-Learning University
+                        </span><br />
+                        <span style=""></span>
+                    </div>
+                    <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+	                    <div style="display: flex; flex-wrap: wrap; padding-top: 6%">
+		                    @if (Session["user"] != null)
+		                    {
+			                    if (user.UserRole == "Admin")
+			                    {
+				                    <a class="btn btn-link" href="@Url.Action("CreateUser", "Home")">Users</a>
+				                    <span>&nbsp;</span>
+				                    <a class="btn btn-link" href="@Url.Action("CreateCourse", "Home")">Courses</a>
+			                    }
+			                    if (user.UserRole == "Student")
+			                    {
+				                    <a class="btn btn-link" href="@Url.Action("CourseRegistration", "Home", new{ userId=user.Id })">Course Registration</a>
+				                    <span>&nbsp;</span>
+				                    <a class="btn btn-link" href="@Url.Action("ViewLessons", "Home", new{ userId=user.Id })">View Lessons</a>
+				                    <span>&nbsp;</span>
+				                    <a class="btn btn-link" href="@Url.Action("ViewQuizes", "Home", new{ userId=user.Id })">Quizes</a>
+			                    }
+			                    if (user.UserRole == "Instructor")
+			                    {
+				                    <a class="btn btn-link" href="@Url.Action("CreateLesson", "Home")">Lessons</a>
+				                    <span>&nbsp;</span>
+				                    <a class="btn btn-link" href="@Url.Action("CreateQuiz", "Home")">Quizes</a>
+			                    }
+		                    }
+	                    </div>
+                    </div>
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                        <div class="row" style="padding-top: 6%">
+                            @if (Session["user"] != null)
+                            {
+                                <div class="col-md-10">
+                                    <p style="padding-top: 8px">Logged in as: @user.FullName.ToUpper() <span class="badge">@user.UserRole.ToUpper()</span></p>
+                                </div>
+                                <div class="col-md-2">
+                                    @using (Html.BeginForm("LogOut", "Account", FormMethod.Post))
+                                    {
+                                        @Html.AntiForgeryToken()
+                                        <button type="submit" class="btn btn-danger pull-right">Log Out</button>
+                                    }
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </nav>
     <div class="container body-content">
         @RenderBody()
@@ -35,9 +88,11 @@
             <p>&copy; @DateTime.Now.Year - Team 4</p>
         </footer>
     </div>
-
+	<script src="~/Scripts/bootstrap.min.js"></script>
+	<script src="~/Scripts/jquery-3.4.1.min.js"></script>
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
+    <script src="~/Scripts/datatables.js"></script>
     @RenderSection("scripts", required: false)
 </body>
 </html>

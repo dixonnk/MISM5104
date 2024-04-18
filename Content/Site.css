@@ -1,6 +1,12 @@
-﻿/* Set padding to keep content from hitting the edges */
+﻿body {
+    padding-top: 0px;
+    padding-bottom: 20px;
+    overflow: auto;
+    background: #EDEDED;
+}
+
+/* Set padding to keep content from hitting the edges */
 .body-content {
-    margin-top: 15px;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -16,5 +22,65 @@
 input,
 select,
 textarea {
-    max-width: 280px;
+    max-width: 400px;
 }
+
+.sidebar {
+    padding: 20px;
+    background: #F7F7F7;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+.main {
+    background: #F7F7F7;
+    border-top: 1px solid #CBCBCB;
+    border-left: 1px solid #ddd;
+}
+.red {
+    height: 2px;
+    background: #f00;
+}
+
+.green {
+    height: 2px;
+    background: #008000;
+}
+.blue {
+    height: 2px;
+    background: #000022;
+}
+
+.white {
+    height: 2px;
+    background: #fff;
+}
+
+.black {
+    height: 2px;
+    background: #000;
+}
+.footer {
+    bottom: 0;
+    padding-top: 10px;
+    position: fixed;
+}
+.btn,
+.form-control {
+    border-radius: 0px;
+}
+.login {
+    height: 3em
+}
+ul li {
+    list-style-type: none
+}
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('../fonts/fontawesome-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/fontawesome-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/fontawesome-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/fontawesome-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/fontawesome-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+

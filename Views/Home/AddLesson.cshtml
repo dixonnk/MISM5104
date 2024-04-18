@@ -1,0 +1,99 @@
+﻿@model MISM5104.Models.LessonsVm
+
+@{
+}
+
+<div class="row">
+    <div class="col-md-8">
+        <h4>Lessons for: <span style="font-weight: bolder">@Model.Course.CourseName</span></h4>
+    </div>
+    <div class="col-md-4">
+	    <a href="@Url.Action("CreateLesson","Home")" type="button" class="btn btn-default btn-sm pull-right"><i class="fa fa-backward"></i> back</a>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <button type="button" class="btn btn-primary btn-sm pull-right" data-toggle="modal" data-target="#addModal"><i class="fa fa-user-plus"></i> Add Lesson</button>
+        <table class="table table-striped table-bordered display compact" id="grid">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Lesson Title</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model.Lessons.Any())
+                {
+                    var i = 1;
+                    foreach (var lesson in Model.Lessons)
+                    {
+                        <tr>
+                            <td>@i</td>
+                            <td>@lesson.Title</td>
+                            <td>
+                                <a href="" class="btn btn-success btn-xs"><i class="fa fa-pencil"></i> </a>
+                            </td>
+                        </tr>
+                        i++;
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Add model -->
+<div class="modal fade" id="addModal" tabindex="-1" role="dialog" aria-labelledby="editEvent" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            @using (Html.BeginForm("SaveLesson", "Home", FormMethod.Post))
+            {
+                @Html.AntiForgeryToken()
+                @Html.HiddenFor(m=>m.CourseId,new {@Value=Model.Course.Id})
+                <div class="modal-header" style="background: #D9EDF7; border-radius:5px">
+                    <button type="button" class="close" id="refresh" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title text-center" id="myModalLabel">New Lesson</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="form-horizontal">
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.Title, "Lesson Title", htmlAttributes: new { @class = "col-md-3" })
+                                    <div class="col-md-9">
+                                        @Html.TextAreaFor(model => model.Title, new { @class = "form-control", required = "true" })
+                                        @Html.ValidationMessageFor(model => model.Title, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.Duration, "Duration", htmlAttributes: new { @class = "col-md-3" })
+                                    <div class="col-md-9">
+                                        @Html.EditorFor(model => model.Duration, new { htmlAttributes = new { @class = "form-control", min="0", max="240", type = "number", required = "true", placeholder="Enter duration in minutes..." } })
+                                        @Html.ValidationMessageFor(model => model.Duration, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal"><i class="fa fa-times"></i> Cancel</button>
+                    <button type="submit" class="btn btn-primary"><i class="fa fa-save"></i> Save</button>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('#grid').dataTable();
+        });
+
+    </script>
+}

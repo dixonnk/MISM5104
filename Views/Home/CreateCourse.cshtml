@@ -1,0 +1,98 @@
+﻿@model MISM5104.Models.CourseVm
+
+<div class="row">
+    <div class="col-md-12">
+        <button type="button" class="btn btn-primary btn-sm pull-right" data-toggle="modal" data-target="#addModal"><i class="fa fa-user-plus"></i> New Course</button>
+        <table class="table table-striped table-bordered display compact" id="grid">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Course Name</th>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model.Courses.Any())
+                {
+                    var i = 1;
+                    foreach (var c in Model.Courses)
+                    {
+                        <tr>
+                            <td>@i</td>
+                            <td>@c.CourseName</td>
+                            <td>@c.StartDate.ToString("D")</td>
+                            <td>@c.EndDate.ToString("D")</td>
+                            <td>
+                                <a href="" class="btn btn-success btn-xs"><i class="fa fa-pencil"></i> </a>
+                            </td>
+                        </tr>
+                        i++;
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Add model -->
+<div class="modal fade" id="addModal" tabindex="-1" role="dialog" aria-labelledby="editEvent" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            @using (Html.BeginForm("SaveCourse", "Home", FormMethod.Post))
+            {
+                @Html.AntiForgeryToken()
+                <div class="modal-header" style="background: #D9EDF7; border-radius:5px">
+                    <button type="button" class="close" id="refresh" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title text-center" id="myModalLabel">Register New Course</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="form-horizontal">
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.CourseName, "Course name", htmlAttributes: new { @class = "col-md-3" })
+                                    <div class="col-md-9">
+                                        @Html.EditorFor(model => model.CourseName, new { htmlAttributes = new { @class = "form-control", required = "true" } })
+                                        @Html.ValidationMessageFor(model => model.CourseName, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.StartDate,"Start Date", htmlAttributes: new { @class = "col-md-3" })
+                                    <div class="col-md-9">
+	                                    @Html.EditorFor(model => model.StartDate, new { htmlAttributes = new { @class = "form-control", type="date", required = "true" } })
+                                        @Html.ValidationMessageFor(model => model.StartDate, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <div class="form-group">
+	                                @Html.LabelFor(model => model.EndDate,"End Date", htmlAttributes: new { @class = "col-md-3" })
+	                                <div class="col-md-9">
+		                                @Html.EditorFor(model => model.EndDate, new { htmlAttributes = new { @class = "form-control", type="date", required = "true" } })
+		                                @Html.ValidationMessageFor(model => model.EndDate, "", new { @class = "text-danger" })
+	                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal"><i class="fa fa-times"></i> Cancel</button>
+                    <button type="submit" class="btn btn-primary"><i class="fa fa-save"></i> Save</button>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('#grid').dataTable();
+        });
+       
+    </script>
+}
