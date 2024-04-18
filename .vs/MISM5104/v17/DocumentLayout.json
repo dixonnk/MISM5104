@@ -1,0 +1,337 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F27EDF95-E3CB-44BC-908D-3558C3A42C80}|MISM5104.csproj|c:\\users\\kisinga\\source\\repos\\kca oop\\mism5104\\views\\home\\viewquizes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F27EDF95-E3CB-44BC-908D-3558C3A42C80}|MISM5104.csproj|solutionrelative:views\\home\\viewquizes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F27EDF95-E3CB-44BC-908D-3558C3A42C80}|MISM5104.csproj|C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\views\\home\\viewlessons.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F27EDF95-E3CB-44BC-908D-3558C3A42C80}|MISM5104.csproj|solutionrelative:views\\home\\viewlessons.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F27EDF95-E3CB-44BC-908D-3558C3A42C80}|MISM5104.csproj|C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\views\\home\\createquiz.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F27EDF95-E3CB-44BC-908D-3558C3A42C80}|MISM5104.csproj|solutionrelative:views\\home\\createquiz.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F27EDF95-E3CB-44BC-908D-3558C3A42C80}|MISM5104.csproj|C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F27EDF95-E3CB-44BC-908D-3558C3A42C80}|MISM5104.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F27EDF95-E3CB-44BC-908D-3558C3A42C80}|MISM5104.csproj|C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\models\\quizesvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F27EDF95-E3CB-44BC-908D-3558C3A42C80}|MISM5104.csproj|solutionrelative:models\\quizesvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F27EDF95-E3CB-44BC-908D-3558C3A42C80}|MISM5104.csproj|C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F27EDF95-E3CB-44BC-908D-3558C3A42C80}|MISM5104.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F27EDF95-E3CB-44BC-908D-3558C3A42C80}|MISM5104.csproj|C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\models\\lessonsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F27EDF95-E3CB-44BC-908D-3558C3A42C80}|MISM5104.csproj|solutionrelative:models\\lessonsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F27EDF95-E3CB-44BC-908D-3558C3A42C80}|MISM5104.csproj|C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F27EDF95-E3CB-44BC-908D-3558C3A42C80}|MISM5104.csproj|solutionrelative:repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F27EDF95-E3CB-44BC-908D-3558C3A42C80}|MISM5104.csproj|C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\models\\studentcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F27EDF95-E3CB-44BC-908D-3558C3A42C80}|MISM5104.csproj|solutionrelative:models\\studentcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F27EDF95-E3CB-44BC-908D-3558C3A42C80}|MISM5104.csproj|C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\views\\home\\courseregistration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F27EDF95-E3CB-44BC-908D-3558C3A42C80}|MISM5104.csproj|solutionrelative:views\\home\\courseregistration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F27EDF95-E3CB-44BC-908D-3558C3A42C80}|MISM5104.csproj|C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F27EDF95-E3CB-44BC-908D-3558C3A42C80}|MISM5104.csproj|solutionrelative:repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F27EDF95-E3CB-44BC-908D-3558C3A42C80}|MISM5104.csproj|C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\views\\home\\studentprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F27EDF95-E3CB-44BC-908D-3558C3A42C80}|MISM5104.csproj|solutionrelative:views\\home\\studentprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F27EDF95-E3CB-44BC-908D-3558C3A42C80}|MISM5104.csproj|C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\views\\home\\addquiz.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F27EDF95-E3CB-44BC-908D-3558C3A42C80}|MISM5104.csproj|solutionrelative:views\\home\\addquiz.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F27EDF95-E3CB-44BC-908D-3558C3A42C80}|MISM5104.csproj|C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\models\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F27EDF95-E3CB-44BC-908D-3558C3A42C80}|MISM5104.csproj|solutionrelative:models\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F27EDF95-E3CB-44BC-908D-3558C3A42C80}|MISM5104.csproj|C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\views\\home\\createlesson.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F27EDF95-E3CB-44BC-908D-3558C3A42C80}|MISM5104.csproj|solutionrelative:views\\home\\createlesson.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F27EDF95-E3CB-44BC-908D-3558C3A42C80}|MISM5104.csproj|C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\views\\home\\createcourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F27EDF95-E3CB-44BC-908D-3558C3A42C80}|MISM5104.csproj|solutionrelative:views\\home\\createcourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F27EDF95-E3CB-44BC-908D-3558C3A42C80}|MISM5104.csproj|C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F27EDF95-E3CB-44BC-908D-3558C3A42C80}|MISM5104.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F27EDF95-E3CB-44BC-908D-3558C3A42C80}|MISM5104.csproj|C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\models\\coursevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F27EDF95-E3CB-44BC-908D-3558C3A42C80}|MISM5104.csproj|solutionrelative:models\\coursevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ViewQuizes.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\Views\\Home\\ViewQuizes.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\ViewQuizes.cshtml",
+              "ToolTip": "C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\Views\\Home\\ViewQuizes.cshtml",
+              "RelativeToolTip": "Views\\Home\\ViewQuizes.cshtml",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAkwB8AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-28T15:31:18.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ViewLessons.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\Views\\Home\\ViewLessons.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\ViewLessons.cshtml",
+              "ToolTip": "C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\Views\\Home\\ViewLessons.cshtml",
+              "RelativeToolTip": "Views\\Home\\ViewLessons.cshtml",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAACsAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-03-28T15:31:19.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADIAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-03-28T15:31:19.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StudentCourse.cs",
+              "DocumentMoniker": "C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\Models\\StudentCourse.cs",
+              "RelativeDocumentMoniker": "Models\\StudentCourse.cs",
+              "ToolTip": "C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\Models\\StudentCourse.cs",
+              "RelativeToolTip": "Models\\StudentCourse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAUwAwAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T15:31:19.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\Repositories\\IRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IRepository.cs",
+              "ToolTip": "C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\Repositories\\IRepository.cs",
+              "RelativeToolTip": "Repositories\\IRepository.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAswBQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T15:31:19.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StudentProfile.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\Views\\Home\\StudentProfile.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\StudentProfile.cshtml",
+              "ToolTip": "C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\Views\\Home\\StudentProfile.cshtml",
+              "RelativeToolTip": "Views\\Home\\StudentProfile.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-03-28T15:31:19.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAKEAAAAAAAAAAAD4v7EAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T15:31:19.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateQuiz.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\Views\\Home\\CreateQuiz.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\CreateQuiz.cshtml",
+              "ToolTip": "C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\Views\\Home\\CreateQuiz.cshtml",
+              "RelativeToolTip": "Views\\Home\\CreateQuiz.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACwAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-03-28T15:31:19.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "QuizesVm.cs",
+              "DocumentMoniker": "C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\Models\\QuizesVm.cs",
+              "RelativeDocumentMoniker": "Models\\QuizesVm.cs",
+              "ToolTip": "C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\Models\\QuizesVm.cs",
+              "RelativeToolTip": "Models\\QuizesVm.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwCEAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T15:31:19.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LessonsVm.cs",
+              "DocumentMoniker": "C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\Models\\LessonsVm.cs",
+              "RelativeDocumentMoniker": "Models\\LessonsVm.cs",
+              "ToolTip": "C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\Models\\LessonsVm.cs",
+              "RelativeToolTip": "Models\\LessonsVm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T15:31:19.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CourseRegistration.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\Views\\Home\\CourseRegistration.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\CourseRegistration.cshtml",
+              "ToolTip": "C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\Views\\Home\\CourseRegistration.cshtml",
+              "RelativeToolTip": "Views\\Home\\CourseRegistration.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACQAAACeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-03-28T15:31:19.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Repository.cs",
+              "ToolTip": "C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\Repositories\\Repository.cs",
+              "RelativeToolTip": "Repositories\\Repository.cs",
+              "ViewState": "AQIAAIIAAAAAAAAAAAD4v5MAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T15:31:19.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Quiz.cs",
+              "DocumentMoniker": "C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\models\\Quiz.cs",
+              "RelativeDocumentMoniker": "models\\Quiz.cs",
+              "ToolTip": "C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\models\\Quiz.cs",
+              "RelativeToolTip": "models\\Quiz.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T15:31:19.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddQuiz.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\Views\\Home\\AddQuiz.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\AddQuiz.cshtml",
+              "ToolTip": "C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\Views\\Home\\AddQuiz.cshtml",
+              "RelativeToolTip": "Views\\Home\\AddQuiz.cshtml",
+              "ViewState": "AQIAACwAAAAAAAAAAAAAADQAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-03-28T15:31:19.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CreateLesson.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\Views\\Home\\CreateLesson.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\CreateLesson.cshtml",
+              "ToolTip": "C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\Views\\Home\\CreateLesson.cshtml",
+              "RelativeToolTip": "Views\\Home\\CreateLesson.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-03-28T15:31:19.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreateCourse.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\Views\\Home\\CreateCourse.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\CreateCourse.cshtml",
+              "ToolTip": "C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\Views\\Home\\CreateCourse.cshtml",
+              "RelativeToolTip": "Views\\Home\\CreateCourse.cshtml",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAABsAAABrAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-03-28T15:31:19.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAkwBsAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-03-28T15:31:19.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CourseVm.cs",
+              "DocumentMoniker": "C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\Models\\CourseVm.cs",
+              "RelativeDocumentMoniker": "Models\\CourseVm.cs",
+              "ToolTip": "C:\\Users\\Kisinga\\source\\repos\\KCA OOP\\MISM5104\\Models\\CourseVm.cs",
+              "RelativeToolTip": "Models\\CourseVm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T15:31:19.306Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
